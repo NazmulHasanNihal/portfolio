@@ -3,31 +3,38 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import Link from 'next/link';
+interface Project {
+  title: string;
+  description: string;
+  date: string;
+  image: string;
+  link: string; // Add the link property
+}
 
 const projects = {
   "Machine Learning & AI": [
-    // {
-    //   title: "Sales Dashboard with Power BI",
-    //   description: "A dynamic sales dashboard built using Power BI to track key performance indicators.",
-    //   image: "https://images.unsplash.com/photo-1565812164-b63b173218db?w=800&auto=format&fit=crop&q=60",
-    //   link: "https://github.com/yourusername/sales-dashboard",
-    //   tools: [
-    //     { name: "Power BI", color: "bg-blue-500" },
-    //     { name: "Excel", color: "bg-gray-600" },
-    //     { name: "SQL", color: "bg-green-500" },
-    //   ],
-    // },
-    // {
-    //   title: "Market Analysis Report",
-    //   description: "A comprehensive market analysis report using SQL and Excel for insights on market trends.",
-    //   image: "https://images.unsplash.com/photo-1523180085855-5c4993e1a542?w=800&auto=format&fit=crop&q=60",
-    //   link: "https://github.com/yourusername/market-analysis-report",
-    //   tools: [
-    //     { name: "SQL", color: "bg-green-500" },
-    //     { name: "Excel", color: "bg-gray-600" },
-    //     { name: "Tableau", color: "bg-blue-500" },
-    //   ],
-    // },
+    {
+      title: "Sales Dashboard with Power BI",
+      description: "A dynamic sales dashboard built using Power BI to track key performance indicators.",
+      image: "https://images.unsplash.com/photo-1565812164-b63b173218db?w=800&auto=format&fit=crop&q=60",
+      link: "https://github.com/yourusername/sales-dashboard",
+      tools: [
+        { name: "Power BI", color: "bg-blue-500" },
+        { name: "Excel", color: "bg-gray-600" },
+        { name: "SQL", color: "bg-green-500" },
+      ],
+    },
+    {
+      title: "Market Analysis Report",
+      description: "A comprehensive market analysis report using SQL and Excel for insights on market trends.",
+      image: "https://images.unsplash.com/photo-1523180085855-5c4993e1a542?w=800&auto=format&fit=crop&q=60",
+      link: "https://github.com/yourusername/market-analysis-report",
+      tools: [
+        { name: "SQL", color: "bg-green-500" },
+        { name: "Excel", color: "bg-gray-600" },
+        { name: "Tableau", color: "bg-blue-500" },
+      ],
+    },
   ],
   "Data Engineering & Pipelines": [],
   "Data Visualization & BI": [],
