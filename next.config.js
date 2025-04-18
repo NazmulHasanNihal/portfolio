@@ -7,7 +7,7 @@ const nextConfig = {
   },
   images: {
     domains: ['your-image-domain.com'], // Specify image domains for Next.js image optimization
-    unoptimized: false,  // Disable unoptimized images for better performance
+    unoptimized: true,  // Set to true for static exports
   },
   basePath: '/portfolio',  // Add this line
   assetPrefix: '/portfolio/',  // Add this line
