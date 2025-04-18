@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,  // Enable React strict mode to help identify potential problems
-  output: 'export',  // Useful when exporting static pages for better deployment
   eslint: {
     ignoreDuringBuilds: true,  // Ignore ESLint during build to speed up builds
   },
