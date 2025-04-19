@@ -65,12 +65,8 @@ jobs:
       - name: Build Next.js application
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
-      # No need for next export; the export is handled via next.config.js
       - name: Export Next.js site for static deployment
-        run: |
-          # This step is optional since next build automatically takes care of it
-          mkdir -p out
-          cp -r .next/out/* out/
+        run: ${{ steps.detect-package-manager.outputs.runner }} next export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
