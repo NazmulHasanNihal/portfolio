@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/cv/MD_NAZMUL.pdf'; // Path to your CV in the public directory
+    link.href = './cv/MD_NAZMUL.pdf'; // Path to your CV in the public directory
     link.download = 'MD_NAZMUL.pdf'; // Optional: Specify the name of the file to be downloaded
     link.click(); // Trigger the download
   };
