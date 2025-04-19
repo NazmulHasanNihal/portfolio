@@ -8,41 +8,37 @@ interface Project {
   description: string;
   date: string;
   image: string;
-  link: string; // Add the link property
+  link: string; 
 }
 
 const projects = {
-  "Machine Learning & AI": [
-    {
-      title: "Sales Dashboard with Power BI",
-      description: "A dynamic sales dashboard built using Power BI to track key performance indicators.",
-      image: "https://images.unsplash.com/photo-1565812164-b63b173218db?w=800&auto=format&fit=crop&q=60",
-      link: "https://github.com/yourusername/sales-dashboard",
-      tools: [
-        { name: "Power BI", color: "bg-blue-500" },
-        { name: "Excel", color: "bg-gray-600" },
-        { name: "SQL", color: "bg-green-500" },
-      ],
-    },
-    {
-      title: "Market Analysis Report",
-      description: "A comprehensive market analysis report using SQL and Excel for insights on market trends.",
-      image: "https://images.unsplash.com/photo-1523180085855-5c4993e1a542?w=800&auto=format&fit=crop&q=60",
-      link: "https://github.com/yourusername/market-analysis-report",
-      tools: [
-        { name: "SQL", color: "bg-green-500" },
-        { name: "Excel", color: "bg-gray-600" },
-        { name: "Tableau", color: "bg-blue-500" },
-      ],
-    },
-  ],
+  "Machine Learning & AI": [],
   "Data Engineering & Pipelines": [],
   "Data Visualization & BI": [],
   "Time Series & Forecasting": [],
   "Statistical Analysis & EDA": [],
   "Web Scraping & Data Collection": [],
   "Cloud & Scalable Data Systems": [],
-  "SQL & Data Querying": [],
+  "SQL & Data Querying": [
+    {
+    title: "Customer Segmentation using RFM Segmentation in SQL",
+    description: "Customer segmentation using RFM analysis on Superstore Sales Data. Cleaned data, performed exploratory analysis, and segmented customers based on Recency, Frequency, and Monetary metrics in SQL. Visualized findings and shared insights.",
+    image: "./public/project_images/Customer-Segmentation-using-RFM-Segmentation-in-SQL.png",
+    link: "https://github.com/NazmulHasanNihal/Customer-Segmentation-using-RFM-Segmentation-in-SQL",
+    tools: [
+      { name: "SQL", color: "bg-green-500" },
+    ],
+  },
+    {
+    title: "Sales Data Analysis and Forecasting Using Excel",
+    description: "This project demonstrates the process of sales data analysis and forecasting using Microsoft Excel. The goal of this project is to analyze historical sales data, identify trends and seasonal patterns, and apply time series forecasting techniques to predict future sales.",
+    image: "./public/project_images/Sales-Data-Analysis-and-Forecasting-Using-Excel.png",
+    link: "https://github.com/NazmulHasanNihal/Sales-Data-Analysis-and-Forecasting-Using-Excel",
+    tools: [
+      { name: "Excel", color: "bg-gray-600" },
+    ],
+  },
+],
 };
 
 export default function Projects() {
