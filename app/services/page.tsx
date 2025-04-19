@@ -12,13 +12,13 @@ interface Project {
 }
 
 const projects = {
-  "Machine Learning & AI": [],
-  "Data Engineering & Pipelines": [],
-  "Data Visualization & BI": [],
-  "Time Series & Forecasting": [],
-  "Statistical Analysis & EDA": [],
-  "Web Scraping & Data Collection": [],
-  "Cloud & Scalable Data Systems": [],
+  // "Machine Learning & AI": [],
+  // "Data Engineering & Pipelines": [],
+  // "Data Visualization & BI": [],
+  // "Time Series & Forecasting": [],
+  // "Statistical Analysis & EDA": [],
+  // "Web Scraping & Data Collection": [],
+  // "Cloud & Scalable Data Systems": [],
   "SQL & Data Querying": [
     {
     title: "Customer Segmentation using RFM Segmentation in SQL",
@@ -42,7 +42,7 @@ const projects = {
 };
 
 export default function Projects() {
-  const [activeCategory, setActiveCategory] = useState<keyof typeof projects>("Machine Learning & AI");
+  const [activeCategory, setActiveCategory] = useState<keyof typeof projects>("SQL & Data Querying");
 
   return (
     <main className="min-h-screen pt-16 bg-background text-foreground">
