@@ -23,7 +23,7 @@ const projects = {
     {
     title: "Customer Segmentation using RFM Segmentation in SQL",
     description: "Customer segmentation using RFM analysis on Superstore Sales Data. Cleaned data, performed exploratory analysis, and segmented customers based on Recency, Frequency, and Monetary metrics in SQL. Visualized findings and shared insights.",
-    image: "./public/project_images/Customer-Segmentation-using-RFM-Segmentation-in-SQL.png",
+    image: "./project_images/Customer-Segmentation-using-RFM-Segmentation-in-SQL.png",
     link: "https://github.com/NazmulHasanNihal/Customer-Segmentation-using-RFM-Segmentation-in-SQL",
     tools: [
       { name: "SQL", color: "bg-green-500" },
@@ -32,7 +32,7 @@ const projects = {
     {
     title: "Sales Data Analysis and Forecasting Using Excel",
     description: "This project demonstrates the process of sales data analysis and forecasting using Microsoft Excel. The goal of this project is to analyze historical sales data, identify trends and seasonal patterns, and apply time series forecasting techniques to predict future sales.",
-    image: "./public/project_images/Sales-Data-Analysis-and-Forecasting-Using-Excel.png",
+    image: "./project_images/Sales-Data-Analysis-and-Forecasting-Using-Excel.png",
     link: "https://github.com/NazmulHasanNihal/Sales-Data-Analysis-and-Forecasting-Using-Excel",
     tools: [
       { name: "Excel", color: "bg-gray-600" },
