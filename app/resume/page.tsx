@@ -7,12 +7,12 @@ import { useTheme } from "next-themes";
 import Image from 'next/image'; // Import Next.js Image component
 import { useEffect } from 'react';
 
-const experiences = [
-  { period: "2022 - Present", title: "Full Stack Developer", company: "Tech Solutions Inc." },
-  { period: "2020 - 2021", title: "Freelance Web Developer", company: "E-commerce Startup" },
-  { period: "Summer 2021", title: "Front-End Developer Intern", company: "Web Design Studio" },
-  { period: "2019 - 2020", title: "Teaching Assistant", company: "Tech Academy" },
-];
+// const experiences = [
+//   { period: "2022 - Present", title: "Full Stack Developer", company: "Tech Solutions Inc." },
+//   { period: "2020 - 2021", title: "Freelance Web Developer", company: "E-commerce Startup" },
+//   { period: "Summer 2021", title: "Front-End Developer Intern", company: "Web Design Studio" },
+//   { period: "2019 - 2020", title: "Teaching Assistant", company: "Tech Academy" },
+// ];
 
 const education = [
   { period: "2021 - Present", degree: "Bachelor of Science in Computer Science and Engineering", school: "College of Technology" },
@@ -37,14 +37,14 @@ export default function Resume() {
       case "Experience":
         return (
           <div className="space-y-6">
-            {experiences.map((exp, index) => (
+            {/* {experiences.map((exp, index) => (
               <motion.div key={index} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: index * 0.1 }} className="relative pl-6 border-l-2 border-emerald-400">
                 <div className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-emerald-400" />
                 <span className="text-emerald-400 text-sm sm:text-base">{exp.period}</span>
                 <h3 className="text-lg sm:text-xl font-bold mt-2">{exp.title}</h3>
                 <p className="text-muted-foreground text-sm sm:text-base">{exp.company}</p>
               </motion.div>
-            ))}
+            ))} */}
           </div>
         );
       case "Education":
