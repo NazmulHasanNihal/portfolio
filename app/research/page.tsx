@@ -82,3 +82,43 @@
 //     </main>
 //   );
 // }
+
+"use client"
+
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+
+export default function Research() {
+  return (
+    <main className="min-h-screen pt-16 bg-background text-foreground">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-12 sm:mb-16"
+        >
+          <h1 className="text-3xl sm:text-4xl font-bold mb-4">Research Work</h1>
+          <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base">
+            Exploring the frontiers of technology through innovative research projects.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+          {/* Placeholder for when there are no research projects */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="bg-card rounded-lg overflow-hidden shadow-lg p-4 sm:p-6 text-center"
+          >
+            <div className="h-48 bg-gray-300 rounded-lg mb-4"></div> {/* Placeholder image */}
+            <p className="text-muted-foreground text-sm sm:text-base">
+              No research projects available at the moment. Please check back later.
+            </p>
+          </motion.div>
+        </div>
+      </div>
+    </main>
+  );
+}
