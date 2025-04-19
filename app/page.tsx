@@ -72,7 +72,7 @@ export default function Home() {
                                 transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
                             >
                                 <Image
-                                    src="/profile.webp" // Corrected path
+                                    src="./images/profile.webp" // Corrected path
                                     alt="Md. Nazmul"
                                     layout="fill"
                                     objectFit="cover"
