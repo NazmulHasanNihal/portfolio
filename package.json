@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",  
     "start": "next start",
     "lint": "next lint"
   },
@@ -67,5 +66,5 @@
     "postcss": "^8.5.3",
     "typescript": "5.2.2"
   },
-  "homepage": "https://NazmulHasanNihal.github.io/portfolio"
+  "homepage": "https://NazmulHasanNihal.github.io/portfolio-2.0"
 }
