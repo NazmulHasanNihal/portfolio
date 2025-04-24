@@ -45,7 +45,7 @@ const projects = {
     image: "./project_images/Advanced-Statistical-Methods-for-AB-and-Hypothesis-Testing-Methods-of-Experimentations.webp",
     link: "https://github.com/NazmulHasanNihal/Advanced-Statistical-Methods-for-AB-and-Hypothesis-Testing-Methods-of-Experimentations",
     tools: [
-      { name: "A/B Testing", color: "bg-bulegray-500" },
+      { name: "A/B Testing", color: "bg-orange-500" },
       { name: "Hypothesis Testing", color: "bg-pink-900" },
     ],
   },
