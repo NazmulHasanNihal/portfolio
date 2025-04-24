@@ -16,7 +16,6 @@ const projects = {
   // "Data Engineering & Pipelines": [],
   // "Data Visualization & BI": [],
   // "Time Series & Forecasting": [],
-  // "Statistical Analysis & EDA": [],
   // "Web Scraping & Data Collection": [],
   // "Cloud & Scalable Data Systems": [],
   "SQL & Data Querying": [
@@ -36,6 +35,18 @@ const projects = {
     link: "https://github.com/NazmulHasanNihal/Sales-Data-Analysis-and-Forecasting-Using-Excel",
     tools: [
       { name: "Excel", color: "bg-gray-600" },
+    ],
+  },
+],
+"Statistical Analysis & EDA": [
+  {
+    title: "Advanced Statistical Methods for A/B and Hypothesis Testing Methods of Experimentations",
+    description: "This project will showcase advanced statistical methods for A/B testing and hypothesis testing, applying various techniques to experimentations, statistical and data analysis. This project covers Normality tests, Variance tests, T-tests, Non-parametric, Parametric, Chi-Square tests to help make data-driven decisions in experiments.",
+    image: "./project_images/Advanced-Statistical-Methods-for-AB-and-Hypothesis-Testing-Methods-of-Experimentations.webp",
+    link: "https://github.com/NazmulHasanNihal/Advanced-Statistical-Methods-for-AB-and-Hypothesis-Testing-Methods-of-Experimentations",
+    tools: [
+      { name: "A/B Testing", color: "bg-bulegray-500" },
+      { name: "Hypothesis Testing", color: "bg-pink-900" },
     ],
   },
 ],
