@@ -39,6 +39,18 @@ const projects = {
   },
 ],
 "Statistical Analysis & EDA": [
+  { title: "Optimizing Website Conversion Rate with CTA Button Design An A/B Testing Study", 
+    description: "An end-to-end A/B testing project to optimize website conversions by testing different CTA button designs. The project involves data collection, random user assignment, statistical analysis using Chi-Square and Z-tests, and visualizations to identify the most effective CTA combination for maximizing conversions.", 
+    image: "./project_images/Optimizing-Website-Conversion-Rate-with-CTA-Button-Design-An-A-B-Testing-Study.png", 
+    link: "https://github.com/NazmulHasanNihal/Optimizing-Website-Conversion-Rate-with-CTA-Button-Design-An-A-B-Testing-Study", 
+    tools: [ 
+      { name: "A/B Testing", color: "bg-orange-500" }, 
+      { name: "ANOVA", color: "bg-yellow-500" }, 
+      { name: "Z Test", color: "bg-green-700" }, 
+      { name: "Hypothesis Testing", color: "bg-pink-700" }, 
+      { name: "Statistical", color: "bg-purple-700" },
+    ],
+  },
   {
     title: "Analyzing Consumer Preferences for Beverage Types Across Age Groups using Chi Square Test",
     description: "This project analyzes the relationship between age group and beverage preference using the Chi-Square Test of Independence. By examining whether preferences differ significantly across age groups, the study helps in understanding consumer behavior and can guide targeted marketing strategies.",
