@@ -40,6 +40,17 @@ const projects = {
 ],
 "Statistical Analysis & EDA": [
   {
+    title: "Analyzing Consumer Preferences for Beverage Types Across Age Groups using Chi Square Test",
+    description: "This project analyzes the relationship between age group and beverage preference using the Chi-Square Test of Independence. By examining whether preferences differ significantly across age groups, the study helps in understanding consumer behavior and can guide targeted marketing strategies.",
+    image: "./project_images/Analyzing-Consumer-Preferences-for-Beverage-Types-Across-Age-Groups-using-Chi-Square-Test.png",
+    link: "https://github.com/NazmulHasanNihal/Analyzing-Consumer-Preferences-for-Beverage-Types-Across-Age-Groups-using-Chi-Square-Test",
+    tools: [
+      { name: "Chi Sqaure Test", color: "bg-red-500" },
+      { name: "Hypothesis Testing", color: "bg-pink-700" },
+      { name: "Statistical", color: "bg-purple-700" },
+    ],
+  },
+  {
     title: "Advanced Statistical Methods for A/B and Hypothesis Testing Methods of Experimentations",
     description: "This project will showcase advanced statistical methods for A/B testing and hypothesis testing, applying various techniques to experimentations, statistical and data analysis. This project covers Normality tests, Variance tests, T-tests, Non-parametric, Parametric, Chi-Square tests to help make data-driven decisions in experiments.",
     image: "./project_images/Advanced-Statistical-Methods-for-AB-and-Hypothesis-Testing-Methods-of-Experimentations.webp",
@@ -47,6 +58,7 @@ const projects = {
     tools: [
       { name: "A/B Testing", color: "bg-orange-500" },
       { name: "Hypothesis Testing", color: "bg-pink-900" },
+      { name: "Statistical", color: "bg-purple-900" },
     ],
   },
 ],
