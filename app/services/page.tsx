@@ -28,6 +28,8 @@ const projects = {
       { name: "SQL", color: "bg-green-500" },
     ],
   },
+],
+"Excel & Power BI": [
     {
     title: "Sales Data Analysis and Forecasting Using Excel",
     description: "This project demonstrates the process of sales data analysis and forecasting using Microsoft Excel. The goal of this project is to analyze historical sales data, identify trends and seasonal patterns, and apply time series forecasting techniques to predict future sales.",
