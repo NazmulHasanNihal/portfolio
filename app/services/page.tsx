@@ -39,6 +39,15 @@ const projects = {
       { name: "Excel", color: "bg-gray-600" },
     ],
   },
+  {
+    title: "Marketing Campaign Performance Analysis",
+    description: "This project analyzes real-world marketing campaigns to evaluate return on investment, cost-efficiency, audience targeting, and platform performance. Builting Excel dashboards. it is designed to answer key marketing strategy questions for a retail e-commerce company operating across multiple channels and regions.",
+    image: "./project_images/Marketing-Campaign-Performance-Analysis.png",
+    link: "https://github.com/NazmulHasanNihal/Marketing-Campaign-Performance-Analysis",
+    tools: [
+      { name: "Excel", color: "bg-gray-600" },
+    ],
+  },
 ],
 "Statistical Analysis & EDA": [
   { title: "Optimizing Website Conversion Rate with CTA Button Design An A/B Testing Study", 
