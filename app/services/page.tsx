@@ -26,7 +26,7 @@ const projects = {
     link: "https://github.com/NazmulHasanNihal/NoSQL-Based-Real-Time-Social-Media-Engagement-Influence-Analysis",
     tools: [
       { name: "NoSQL", color: "bg-blue-500" },
-      { name: "NoSQL", color: "bg-green-500" },
+      { name: "MongoDB", color: "bg-green-500" },
     ],
   },
     {
