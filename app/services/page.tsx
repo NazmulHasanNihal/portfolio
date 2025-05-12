@@ -18,7 +18,16 @@ const projects = {
   // "Time Series & Forecasting": [],
   // "Web Scraping & Data Collection": [],
   // "Cloud & Scalable Data Systems": [],
-  "SQL & Data Querying": [
+  "SQL & NoSQL Data Querying": [
+    {
+    title: "NoSQL Based Real-Time Social Media Engagement Influence Analysis",
+    description: "Analyzed a simulated real-time social media feed using MongoDB. Explored user behavior, post engagement, hashtags, sentiment, and network structure through 30+ visualizations. Applied NoSQL aggregation, NLP, and network theory to uncover insights and optimize content and influencer strategy.",
+    image: "./project_images/NoSQL-Based-Real-Time-Social-Media-Engagement-Influence-Analysis.png",
+    link: "https://github.com/NazmulHasanNihal/NoSQL-Based-Real-Time-Social-Media-Engagement-Influence-Analysis",
+    tools: [
+      { name: "NoSQL", color: "bg-blue-500" },
+    ],
+  },
     {
     title: "Customer Segmentation using RFM Segmentation in SQL",
     description: "Customer segmentation using RFM analysis on Superstore Sales Data. Cleaned data, performed exploratory analysis, and segmented customers based on Recency, Frequency, and Monetary metrics in SQL. Visualized findings and shared insights.",
@@ -29,7 +38,7 @@ const projects = {
     ],
   },
 ],
-"Excel & Power BI": [
+"Excel & Google Sheet": [
     {
     title: "Sales Data Analysis and Forecasting Using Excel",
     description: "This project demonstrates the process of sales data analysis and forecasting using Microsoft Excel. The goal of this project is to analyze historical sales data, identify trends and seasonal patterns, and apply time series forecasting techniques to predict future sales.",
@@ -88,7 +97,7 @@ const projects = {
 };
 
 export default function Projects() {
-  const [activeCategory, setActiveCategory] = useState<keyof typeof projects>("SQL & Data Querying");
+  const [activeCategory, setActiveCategory] = useState<keyof typeof projects>("SQL & NoSQL Data Querying");
 
   return (
     <main className="min-h-screen pt-16 bg-background text-foreground">
