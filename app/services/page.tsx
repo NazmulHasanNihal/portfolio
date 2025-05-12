@@ -26,6 +26,7 @@ const projects = {
     link: "https://github.com/NazmulHasanNihal/NoSQL-Based-Real-Time-Social-Media-Engagement-Influence-Analysis",
     tools: [
       { name: "NoSQL", color: "bg-blue-500" },
+      { name: "NoSQL", color: "bg-green-500" },
     ],
   },
     {
@@ -34,7 +35,7 @@ const projects = {
     image: "./project_images/Customer-Segmentation-using-RFM-Segmentation-in-SQL.png",
     link: "https://github.com/NazmulHasanNihal/Customer-Segmentation-using-RFM-Segmentation-in-SQL",
     tools: [
-      { name: "SQL", color: "bg-green-500" },
+      { name: "SQL", color: "bg-red-500" },
     ],
   },
 ],
