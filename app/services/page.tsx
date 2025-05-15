@@ -36,6 +36,7 @@ const projects = {
     link: "https://github.com/NazmulHasanNihal/Customer-Segmentation-using-RFM-Segmentation-in-SQL",
     tools: [
       { name: "SQL", color: "bg-red-500" },
+      { name: "Postgres", color: "bg-pink-500" },
     ],
   },
 ],
