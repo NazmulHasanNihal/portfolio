@@ -13,7 +13,22 @@ interface Project {
 
 const projects = {
   // "Machine Learning & AI": [],
-  // "Data Engineering & Pipelines": [],
+  "Data Engineering & Pipelines": [
+    {
+      title: "SmartStream: A Real Time IoT Data Engineering Pipeline",
+      description: "A real-time IoT data pipeline using Kafka, Flink, PostgreSQL, FastAPI, and Streamlit. Simulates sensor data, processes streams with Flink, stores results in PostgreSQL, serves live data via WebSocket API, and visualizes metrics on a real-time dashboard. Fully Dockerized.",
+      image: "./project_images/SmartStream-A-Real-Time-IoT-Data-Engineering-Pipeline.gif",
+      link: "https://github.com/NazmulHasanNihal/SmartStream-A-Real-Time-IoT-Data-Engineering-Pipeline",
+      tools: [
+        { name: "Pipeline", color: "bg-blue-500" },
+        { name: "Apache Flink", color: "bg-yellow-500" },
+        { name: "Apache Kafka", color: "bg-purple-500" },
+        { name: "Postgres", color: "bg-pink-500" },
+        { name: "FastAPI", color: "bg-green-500" },
+        { name: "Streamlit", color: "bg-red-500" },
+      ],
+    },
+  ],
   // "Data Visualization & BI": [],
   // "Time Series & Forecasting": [],
   // "Web Scraping & Data Collection": [],
