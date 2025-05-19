@@ -12,8 +12,9 @@ interface Project {
 }
 
 const projects = {
-  // "Machine Learning & AI": [],
-  "Data Engineering & Pipelines": [
+  "Data Science & Machine Learning": [],
+  "Deployment & MLOps": [],
+  "Data Engineering & Big Data Systems": [
     {
       title: "SmartStream: A Real Time IoT Data Engineering Pipeline",
       description: "A real-time IoT data pipeline using Kafka, Flink, PostgreSQL, FastAPI, and Streamlit. Simulates sensor data, processes streams with Flink, stores results in PostgreSQL, serves live data via WebSocket API, and visualizes metrics on a real-time dashboard. Fully Dockerized.",
@@ -28,12 +29,6 @@ const projects = {
         { name: "Streamlit", color: "bg-red-500" },
       ],
     },
-  ],
-  // "Data Visualization & BI": [],
-  // "Time Series & Forecasting": [],
-  // "Web Scraping & Data Collection": [],
-  // "Cloud & Scalable Data Systems": [],
-  "SQL & NoSQL Data Querying": [
     {
     title: "NoSQL Based Real-Time Social Media Engagement Influence Analysis",
     description: "Analyzed a simulated real-time social media feed using MongoDB. Explored user behavior, post engagement, hashtags, sentiment, and network structure through 30+ visualizations. Applied NoSQL aggregation, NLP, and network theory to uncover insights and optimize content and influencer strategy.",
@@ -54,29 +49,9 @@ const projects = {
       { name: "Postgres", color: "bg-pink-500" },
     ],
   },
-],
-"Excel & Google Sheet": [
-    {
-    title: "Sales Data Analysis and Forecasting Using Excel",
-    description: "This project demonstrates the process of sales data analysis and forecasting using Microsoft Excel. The goal of this project is to analyze historical sales data, identify trends and seasonal patterns, and apply time series forecasting techniques to predict future sales.",
-    image: "./project_images/Sales-Data-Analysis-and-Forecasting-Using-Excel.png",
-    link: "https://github.com/NazmulHasanNihal/Sales-Data-Analysis-and-Forecasting-Using-Excel",
-    tools: [
-      { name: "Excel", color: "bg-gray-600" },
-    ],
-  },
-  {
-    title: "Marketing Campaign Performance Analysis",
-    description: "This project analyzes real-world marketing campaigns to evaluate return on investment, cost-efficiency, audience targeting, and platform performance. Builting Excel dashboards. it is designed to answer key marketing strategy questions for a retail e-commerce company operating across multiple channels and regions.",
-    image: "./project_images/Marketing-Campaign-Performance-Analysis.png",
-    link: "https://github.com/NazmulHasanNihal/Marketing-Campaign-Performance-Analysis",
-    tools: [
-      { name: "Excel", color: "bg-gray-600" },
-    ],
-  },
-],
-"Statistical Analysis & EDA": [
-  { title: "Optimizing Website Conversion Rate with CTA Button Design An A/B Testing Study", 
+  ],
+"Data Analysis & Business Intelligence": [
+     { title: "Optimizing Website Conversion Rate with CTA Button Design An A/B Testing Study", 
     description: "An end-to-end A/B testing project to optimize website conversions by testing different CTA button designs. The project involves data collection, random user assignment, statistical analysis using Chi-Square and Z-tests, and visualizations to identify the most effective CTA combination for maximizing conversions.", 
     image: "./project_images/Optimizing-Website-Conversion-Rate-with-CTA-Button-Design-An-A-B-Testing-Study.png", 
     link: "https://github.com/NazmulHasanNihal/Optimizing-Website-Conversion-Rate-with-CTA-Button-Design-An-A-B-Testing-Study", 
@@ -110,11 +85,29 @@ const projects = {
       { name: "Statistical", color: "bg-purple-900" },
     ],
   },
+  {
+    title: "Sales Data Analysis and Forecasting Using Excel",
+    description: "This project demonstrates the process of sales data analysis and forecasting using Microsoft Excel. The goal of this project is to analyze historical sales data, identify trends and seasonal patterns, and apply time series forecasting techniques to predict future sales.",
+    image: "./project_images/Sales-Data-Analysis-and-Forecasting-Using-Excel.png",
+    link: "https://github.com/NazmulHasanNihal/Sales-Data-Analysis-and-Forecasting-Using-Excel",
+    tools: [
+      { name: "Excel", color: "bg-gray-600" },
+    ],
+  },
+  {
+    title: "Marketing Campaign Performance Analysis",
+    description: "This project analyzes real-world marketing campaigns to evaluate return on investment, cost-efficiency, audience targeting, and platform performance. Builting Excel dashboards. it is designed to answer key marketing strategy questions for a retail e-commerce company operating across multiple channels and regions.",
+    image: "./project_images/Marketing-Campaign-Performance-Analysis.png",
+    link: "https://github.com/NazmulHasanNihal/Marketing-Campaign-Performance-Analysis",
+    tools: [
+      { name: "Excel", color: "bg-gray-600" },
+    ],
+  },
 ],
 };
 
 export default function Projects() {
-  const [activeCategory, setActiveCategory] = useState<keyof typeof projects>("SQL & NoSQL Data Querying");
+  const [activeCategory, setActiveCategory] = useState<keyof typeof projects>("Data Engineering & Big Data Systems");
 
   return (
     <main className="min-h-screen pt-16 bg-background text-foreground">
