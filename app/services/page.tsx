@@ -12,7 +12,24 @@ interface Project {
 }
 
 const projects = {
-  "Data Science & Machine Learning": [],
+  "Data Science & Machine Learning": [
+   {
+    title: "Fake News Detection Naive Bayes and LinearSVC Approaches",
+    description: "An end-to-end data science project: load, clean, and analyze news articles, then train and test text classification models using both LinearSVC and Naive Bayes. Evaluate results, interpret key features, and gain actionable insights. The project includes clear code, exploratory data analysis (EDA), and practical suggestions for further improvement.",
+    image: "./project_images/Fake-News-Detection-Naive-Bayes-and-LinearSVC-Approaches.png",
+    link: "https://github.com/NazmulHasanNihal/Fake-News-Detection-Naive-Bayes-and-LinearSVC-Approaches",
+    tools: [
+      { name: "Python", color: "bg-yellow-500" },
+      { name: "scikit-learn", color: "bg-orange-600" },
+      { name: "Jupyter Notebook", color: "bg-orange-400" },
+      { name: "Pandas", color: "bg-blue-600" },
+      { name: "NumPy", color: "bg-purple-700" },
+      { name: "NLTK", color: "bg-green-700" },
+      { name: "Matplotlib", color: "bg-indigo-500" },
+    ],
+  }, 
+  ],
+  "Deep Learning & AI": [],
   "Deployment & MLOps": [],
   "Data Engineering & Big Data Systems": [
     {
